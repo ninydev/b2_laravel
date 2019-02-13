@@ -24,3 +24,4 @@ Route::group(['prefix' => 'ladmin'], function () { // Группа будет п
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+

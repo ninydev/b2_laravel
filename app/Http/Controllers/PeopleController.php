@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Peoples;
+use App\People;
 use Illuminate\Http\Request;
 
 class PeopleController extends Controller
@@ -17,7 +17,7 @@ class PeopleController extends Controller
         //
         // return "Hello Peoples";
         $data ["pageTitle"] = "Список особ в индустрии";
-        $data ["fromDB"] = Peoples::paginate(15);
+        $data ["fromDB"] = People::paginate(15);
 
         return view('peoples/index',  $data);
     }
