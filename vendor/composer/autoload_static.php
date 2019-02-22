@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit2cf2d1015df602584c94ad7ba825e2af
+class ComposerStaticInitf8e8f06626e33ad0deb6f903ba933c00
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -530,7 +530,6 @@ class ComposerStaticInit2cf2d1015df602584c94ad7ba825e2af
         'App\\Http\\Controllers\\Auth\\VerificationController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/VerificationController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
-        'App\\Http\\Controllers\\PeopleController' => __DIR__ . '/../..' . '/app/Http/Controllers/PeopleController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\CheckForMaintenanceMode' => __DIR__ . '/../..' . '/app/Http/Middleware/CheckForMaintenanceMode.php',
@@ -539,7 +538,6 @@ class ComposerStaticInit2cf2d1015df602584c94ad7ba825e2af
         'App\\Http\\Middleware\\TrimStrings' => __DIR__ . '/../..' . '/app/Http/Middleware/TrimStrings.php',
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
-        'App\\Peoples' => __DIR__ . '/../..' . '/app/Peoples.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
@@ -610,7 +608,6 @@ class ComposerStaticInit2cf2d1015df602584c94ad7ba825e2af
         'Carbon\\Exceptions\\InvalidDateException' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',
         'Carbon\\Laravel\\ServiceProvider' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php',
         'Carbon\\Translator' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Translator.php',
-        'CategoriesTableSeeder' => __DIR__ . '/../..' . '/database/seeds/CategoriesTableSeeder.php',
         'Composer\\Autoload\\AutoloadGenerator' => __DIR__ . '/..' . '/composer/composer/src/Composer/Autoload/AutoloadGenerator.php',
         'Composer\\Autoload\\ClassLoader' => __DIR__ . '/..' . '/composer/composer/src/Composer/Autoload/ClassLoader.php',
         'Composer\\Autoload\\ClassMapGenerator' => __DIR__ . '/..' . '/composer/composer/src/Composer/Autoload/ClassMapGenerator.php',
@@ -3722,7 +3719,6 @@ class ComposerStaticInit2cf2d1015df602584c94ad7ba825e2af
         'PHP_Token_XOR_EQUAL' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
         'PHP_Token_YIELD' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
         'PHP_Token_YIELD_FROM' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
-        'PagesTableSeeder' => __DIR__ . '/../..' . '/database/seeds/PagesTableSeeder.php',
         'Parsedown' => __DIR__ . '/..' . '/erusev/parsedown/Parsedown.php',
         'PermissionRoleTableSeeder' => __DIR__ . '/../..' . '/database/seeds/PermissionRoleTableSeeder.php',
         'PermissionsTableSeeder' => __DIR__ . '/../..' . '/database/seeds/PermissionsTableSeeder.php',
@@ -3848,6 +3844,7 @@ class ComposerStaticInit2cf2d1015df602584c94ad7ba825e2af
         'PhpParser\\Node\\Expr\\AssignOp\\BitwiseAnd' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Node/Expr/AssignOp/BitwiseAnd.php',
         'PhpParser\\Node\\Expr\\AssignOp\\BitwiseOr' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Node/Expr/AssignOp/BitwiseOr.php',
         'PhpParser\\Node\\Expr\\AssignOp\\BitwiseXor' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Node/Expr/AssignOp/BitwiseXor.php',
+        'PhpParser\\Node\\Expr\\AssignOp\\Coalesce' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Node/Expr/AssignOp/Coalesce.php',
         'PhpParser\\Node\\Expr\\AssignOp\\Concat' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Node/Expr/AssignOp/Concat.php',
         'PhpParser\\Node\\Expr\\AssignOp\\Div' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Node/Expr/AssignOp/Div.php',
         'PhpParser\\Node\\Expr\\AssignOp\\Minus' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Node/Expr/AssignOp/Minus.php',
@@ -4008,7 +4005,6 @@ class ComposerStaticInit2cf2d1015df602584c94ad7ba825e2af
         'PhpParser\\Parser\\Tokens' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Parser/Tokens.php',
         'PhpParser\\PrettyPrinterAbstract' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/PrettyPrinterAbstract.php',
         'PhpParser\\PrettyPrinter\\Standard' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/PrettyPrinter/Standard.php',
-        'PostsTableSeeder' => __DIR__ . '/../..' . '/database/seeds/PostsTableSeeder.php',
         'Prophecy\\Argument' => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy/Argument.php',
         'Prophecy\\Argument\\ArgumentsWildcard' => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy/Argument/ArgumentsWildcard.php',
         'Prophecy\\Argument\\Token\\AnyValueToken' => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy/Argument/Token/AnyValueToken.php',
@@ -5232,7 +5228,6 @@ class ComposerStaticInit2cf2d1015df602584c94ad7ba825e2af
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Processor' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Processor.php',
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Rule' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Rule.php',
         'TranslationsTableSeeder' => __DIR__ . '/../..' . '/database/seeds/TranslationsTableSeeder.php',
-        'UsersTableSeeder' => __DIR__ . '/../..' . '/database/seeds/UsersTableSeeder.php',
         'VoyagerDatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/VoyagerDatabaseSeeder.php',
         'VoyagerDummyDatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/VoyagerDummyDatabaseSeeder.php',
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',
@@ -5360,11 +5355,11 @@ class ComposerStaticInit2cf2d1015df602584c94ad7ba825e2af
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit2cf2d1015df602584c94ad7ba825e2af::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit2cf2d1015df602584c94ad7ba825e2af::$prefixDirsPsr4;
-            $loader->fallbackDirsPsr4 = ComposerStaticInit2cf2d1015df602584c94ad7ba825e2af::$fallbackDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit2cf2d1015df602584c94ad7ba825e2af::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit2cf2d1015df602584c94ad7ba825e2af::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitf8e8f06626e33ad0deb6f903ba933c00::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitf8e8f06626e33ad0deb6f903ba933c00::$prefixDirsPsr4;
+            $loader->fallbackDirsPsr4 = ComposerStaticInitf8e8f06626e33ad0deb6f903ba933c00::$fallbackDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitf8e8f06626e33ad0deb6f903ba933c00::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitf8e8f06626e33ad0deb6f903ba933c00::$classMap;
 
         }, null, ClassLoader::class);
     }

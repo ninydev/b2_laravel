@@ -11,17 +11,15 @@
 |
 */
 
-Route::get('/', function () { // Одна страница (в данном случае )
+Route::get('/', function () {
     return view('welcome');
-});
-
-Route::resource('peoples', 'PeopleController'); // Наш контроллер - сразу с набором возможностей
-
-Route::group(['prefix' => 'ladmin'], function () { // Группа будет передана вояджеру
-    Voyager::routes();
 });
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});

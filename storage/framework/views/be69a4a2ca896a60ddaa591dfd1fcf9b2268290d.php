@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="<?php echo e(csrf_token()); ?>">
 
-    <title> <?php if(isset($pageTitle)): ?> <?php echo e($pageTitle); ?> <?php endif; ?> .. <?php echo e(config('app.name', 'Laravel')); ?> .. </title>
+    <title><?php echo e(config('app.name', 'Laravel')); ?></title>
 
     <!-- Scripts -->
     <script src="<?php echo e(asset('js/app.js')); ?>" defer></script>
@@ -69,15 +69,10 @@
                                 </div>
                             </li>
                         <?php endif; ?>
-                        <li><a href="/peoples">Люди </a>
-                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
-
-<h1><?php echo $__env->yieldContent('pageHeader'); ?></h1>
-
 
         <main class="py-4">
             <?php echo $__env->yieldContent('content'); ?>
